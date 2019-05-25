@@ -9,7 +9,8 @@
     "deploy": "firebase deploy --only functions",
     "deploy_indexes": "firebase deploy --only firestore:indexes",
     "logs": "firebase functions:log",
-    "test": "nyc --all mocha"
+    "test": "nyc --all mocha",
+    "doc": "apidoc -i src/ -o apidoc/"
   },
   "engines": {
     "node": "8"

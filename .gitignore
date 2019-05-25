@@ -72,3 +72,6 @@ service-account-credentials.json
 
 # Build folder
 functions/lib
+
+# API DOC
+apidoc

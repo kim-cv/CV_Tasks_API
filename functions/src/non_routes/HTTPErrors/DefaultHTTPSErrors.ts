@@ -2,6 +2,26 @@ import { AbstractHTTPSError } from "./models/AbstractHTTPSError";
 import { BadRequest } from "./models/BadRequest";
 import { InternalServerError } from "./models/InternalServerError";
 
+/** 
+ * @apiDefine httpExampleError
+ * @apiErrorExample {json} Error-Response:
+ *     HTTP/1.1 404 Not Found
+ *     {
+ *       "httpCode": "1000",
+ *       "code": "401",
+ *       "message": "Error Message"
+ *     }
+*/
+/** 
+ * @apiDefine ApiAuthErrors
+ * @apiError auth_failed 2001 401
+ * @apiError auth_missing_headers 2003 401
+ * @apiError auth_missing_authorization 2004 401
+ * @apiError auth_authorization_is_array 2005 401
+ * @apiError auth_authorization_not_starting_with_bearer 2006 401
+ * @apiError auth_failed_user_not_found 2010 401
+ * @apiError just_InternalServerError 1007 500
+*/
 
 //Default Logic HTTP Errors range is 1000-1999
 
