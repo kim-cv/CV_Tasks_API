@@ -64,6 +64,9 @@ node_modules/
 # dotenv environment variables file
 .env
 
+# environments
+environments
+
 # Firebase key credentials
 service-account-credentials.json
 
