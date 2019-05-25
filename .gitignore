@@ -66,3 +66,6 @@ node_modules/
 
 # Firebase key credentials
 service-account-credentials.json
+
+# Build folder
+functions/lib
