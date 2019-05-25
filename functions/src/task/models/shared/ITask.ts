@@ -24,4 +24,5 @@ export interface ITask {
  * @apiSuccess (201) {String} ownerUid
  * @apiSuccess (201) {String} name
  * @apiSuccess (201) {String} description
+ * @apiSuccess (201) {String} creationDateUtcIso
 */
