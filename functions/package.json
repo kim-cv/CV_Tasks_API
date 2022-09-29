@@ -18,7 +18,7 @@
   "main": "lib/index.js",
   "dependencies": {
     "@google-cloud/logging-winston": "0.9.0",
-    "@hapi/joi": "^15.0.3",
+    "@hapi/joi": "^15.1.1",
     "body-parser": "1.19.0",
     "cors": "2.8.5",
     "express": "4.17.0",
